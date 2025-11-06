@@ -2,9 +2,6 @@
     padding: 0px;
     margin: 0px;
     text-decoration: none;
-}
-
-a{
     color:aliceblue;
 }
 
@@ -38,12 +35,9 @@ a{
     justify-content:center;
     align-items:center;
     padding-top:10%;
+    font-size:2rem;
 }
 
-a{
-    font-size:2rem;
-    color:aliceblue;
-}
 
 #main-content-left-center{
     height: 65%;
@@ -55,13 +49,8 @@ a{
     justify-content: start;
     text-align: start;
     box-sizing:border-box;
-    /* padding:25% 5% 1% 5%; */
-    padding:10% 0% 0% 0%;
-}
-
-#main-content-left-center a{
+    padding:10% 3% 0% 0%;
     font-size:1.3rem;
-    color:aliceblue;
 }
 
 #main-content-left-center .bars{
@@ -72,8 +61,7 @@ a{
     justify-content: start;
     align-items: center;
     padding-left:35%;
-    margin:1.5% 2% 1% 5%;
-    /* margin: 1% 2% 1% 2%; */
+    margin:1% 2% 1% 5%;
     box-sizing: border-box;
 }
 
@@ -85,7 +73,7 @@ a{
 }
 
 #main-content-left-bottom{
-    text-align: center;
+    /* text-align: start; */
     /* font-size:1rem; */
     box-sizing: border-box;
     height: 25%;
@@ -95,6 +83,8 @@ a{
     flex-direction: column;
     justify-content: end;
     align-items: center;
+    padding-bottom:20%;
+    font-size: 1.4rem;
 }
 
 #main-content-left-bottom .bars{
@@ -103,17 +93,7 @@ a{
     box-sizing: border-box;
     margin: 1% 0% 2% 0%;
     padding: 3% 0% 0% 2%;
-    /* flex-shrink:0; */
 }
-
-#main-content-left-bottom a{
-    font-size: 1.4rem;
-}
-
-#main-content-left-bottom #about{
-    margin-bottom: 6%;
-}
-
 
 #main-content-left-bottom .bars:hover{
     box-shadow:inset 2px 2px 40px rgb(29, 37, 40);
