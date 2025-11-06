@@ -1,0 +1,177 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#container{
+    background-color: black;
+    border: 1px solid white;
+    display: flex;
+}
+#main-content-left{
+    height: 100vh;
+    width: 19vw;
+    border: 1px solid white;
+    background-color: rgb(19, 24, 26);
+}
+
+#main-content-center{
+    height: 100vh;
+    width: 19vw;
+    border: 1px solid white;
+    overflow: scroll;
+}
+
+#main-content-center .bars{
+    height:5%;
+    width: 90%;
+    background-color: rgb(62, 85, 85);
+    margin: 2%;
+
+}
+
+
+
+
+
+
+
+
+
+
+#main-content-right{
+    height: 100vh;
+    width: 62vw;
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,246 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+a{
+    color:aliceblue;
+}
+
+#container{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+#main-content-left{
+    background-color: rgb(19, 24, 26);
+    width: 19%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    box-sizing: border-box;
+
+}
+
+#main-content-left-top{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding-top:10%;
+}
+
+a{
+    font-size:2rem;
+    color:aliceblue;
+}
+
+#main-content-left-center{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    align-items:center;
+    justify-content: start;
+    text-align: start;
+    box-sizing:border-box;
+    /* padding:25% 5% 1% 5%; */
+    padding:10% 0% 0% 0%;
+}
+
+#main-content-left-center a{
+    font-size:1.3rem;
+    color:aliceblue;
+}
+
+#main-content-left-center .bars{
+    height: 9%;
+    width: 90%;
+    text-align:start;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left:35%;
+    margin:1.5% 2% 1% 5%;
+    /* margin: 1% 2% 1% 2%; */
+    box-sizing: border-box;
+}
+
+#main-content-left-center .bars:hover{
+    box-shadow:inset 2px 2px 40px rgb(29, 37, 40);
+    border: 1px solid  rgb(29, 37, 40);
+    border-radius: 12px;
+    text-shadow:2px 2px 10px rgba(255, 254, 254, 0.5);
+}
+
+#main-content-left-bottom{
+    text-align: center;
+    /* font-size:1rem; */
+    box-sizing: border-box;
+    height: 25%;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+#main-content-left-bottom .bars{
+    width:90%;
+    height: 23%;
+    box-sizing: border-box;
+    margin: 1% 0% 2% 0%;
+    padding: 3% 0% 0% 2%;
+    /* flex-shrink:0; */
+}
+
+#main-content-left-bottom a{
+    font-size: 1.4rem;
+}
+
+#main-content-left-bottom #about{
+    margin-bottom: 6%;
+}
+
+
+#main-content-left-bottom .bars:hover{
+    box-shadow:inset 2px 2px 40px rgb(29, 37, 40);
+    border: 1px solid  rgb(29, 37, 40);
+    border-radius: 12px;
+    text-shadow:2px 2px 10px rgba(255, 254, 254, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
