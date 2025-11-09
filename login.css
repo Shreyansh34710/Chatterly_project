@@ -1,33 +1,32 @@
-*{
+* {
     padding: 0%;
-    margin:0%;
+    margin: 0%;
     text-decoration: none;
-    color:aliceblue;
+    color: aliceblue;
 }
 
-#login-container{
-    background-color:black;
+#login-container {
+    background-color: black;
     height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: stretch;
     box-sizing: border-box;
-    /* border: 1px solid white; */
 }
 
-#login-container-top{
+#login-container-top {
     height: 10%;
     width: 100%;
-    text-align:center;
+    text-align: center;
     padding-top: 2%;
-    color:aliceblue;
+    color: aliceblue;
     box-sizing: border-box;
     border: 1px solid white;
     background-color: rgb(181, 134, 134);
 }
 
-#login-container-center{
+#login-container-center {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -38,104 +37,73 @@
     box-sizing: border-box;
 }
 
-/* #img{
-    border: 1px solid white;
-    width :40%;
-    height: 70%;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_GquNl4WjDMrVUTsS6Yhrg51U70ty2DD0Xw&s);
-    border-radius:2%;
-     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(0, 0, 0);
-    box-sizing: border-box;
-} */
-
-#form{
-    background-color:black;
-    width:50%;
+#form {
+    background-color: black;
+    width: 50%;
     height: 70%;
     font-weight: 300;
     font-size: 2rem;
     box-sizing: border-box;
     text-align: center;
-    /* border:1px solid white; */
     border-radius: 8%;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_GquNl4WjDMrVUTsS6Yhrg51U70ty2DD0Xw&s);
-    /* background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 input[type="text"] {
-      width: 37%;
-      height: 32px;
-      margin-top:5%;
-      background-color:rgb(0, 0, 0);
-      font-size: 0.8rem;
-      border: 0.1px solid rgb(103, 81, 81);
-    }
+    width: 37%;
+    height: 32px;
+    margin-top: 5%;
+    background-color: rgb(0, 0, 0);
+    font-size: 0.8rem;
+    border: 0.1px solid rgb(103, 81, 81);
+}
 
 input[type="password"] {
-      width: 37%;
-      height: 32px;
-      margin-bottom: 4%;
-      font-size: 0.8rem;
-      background-color:rgb(0, 0, 0);
-      border: 0.1px solid rgb(103, 81, 81);
-    }
+    width: 37%;
+    height: 32px;
+    margin-bottom: 4%;
+    font-size: 0.8rem;
+    background-color: rgb(0, 0, 0);
+    border: 0.1px solid rgb(103, 81, 81);
+}
 
-    /* .input{
-        color: aliceblue;
-    } */
-
-legend{
-    font-size:3rem;
+legend {
+    font-size: 3rem;
     color: rgb(0, 0, 0);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top:12% ;
-    text-shadow:2px 2px 3px rgba(19, 17, 17, 0.5);
-    }
-    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 12%;
+    text-shadow: 2px 2px 3px rgba(19, 17, 17, 0.5);
+}
 
-/* #form:hover{
-    box-shadow:inset 2px 2px 35px rgb(29, 37, 40);
-    text-shadow:2px 2px 5px rgba(255, 254, 254, 0.5);
-} */
-
-#login-container-bottom{
-    height:10%;
-    width:100%;
+#login-container-bottom {
+    height: 10%;
+    width: 100%;
     text-align: end;
     padding: 2%;
     box-sizing: border-box;
-    background-color:rgb(15, 15, 15);
-    /* border: 1px solid white; */
+    background-color: rgb(15, 15, 15);
     text-align: center;
 }
 
-#login-container-bottom a{
-    color:aliceblue;
-    margin:20% 1% 2% 1%; 
+#login-container-bottom a {
+    color: aliceblue;
+    margin: 20% 1% 2% 1%;
 }
 
-button{
+button {
     width: 37%;
     height: 37px;
-    font-weight:700;
+    font-weight: 700;
     margin: 0% 2% 10% 2%;
     color: black;
-    background-color:lightblue;
+    background-color: lightblue;
     border-radius: 5px;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(31, 92, 120);
 }
 
-a:hover{
+a:hover {
     text-decoration: dashed;
 }
-
-
-
