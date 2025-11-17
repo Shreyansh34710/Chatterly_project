@@ -40,7 +40,8 @@ body{
     justify-content: center;
     align-items: center;
     padding-top: 10%;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
     flex-shrink: 0;
 }
 
@@ -70,6 +71,7 @@ body{
     border-radius: 10px;
     margin: 1% 2% 1% 2%;
     flex-shrink: 0;
+    font-size: 1.2rem;
 }
 
 .bars:hover {
