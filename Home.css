@@ -194,7 +194,7 @@ padding: 1px;
     width: 10%;
     height: 70%;
     border-radius: 50px;
-    border: 1px solid blueviolet;
+    border: 1px solid rgb(106, 0, 255);
     margin-right: 15px;
     
 }
@@ -361,7 +361,7 @@ textarea{
     border-radius: 50px;
     display: inline-block;
     margin-right: 10px;
-    border: 1px solid blueviolet;
+    border: 1px solid rgb(106, 0, 255);
     
 }
 

@@ -143,7 +143,7 @@ textarea{
     border-radius: 50px;
     display: inline-block;
     margin-right: 10px;
-    border: 1px solid blueviolet;
+    border: 1px solid rgb(106, 0, 255);
     
 }
 
@@ -197,7 +197,7 @@ h4{
 }
 
 .search-button {
-  background-color: rgb(103, 52, 174);
+  background-color: rgb(106, 0, 255);
   color: white;
   border: none;
   width: 12%;
@@ -214,6 +214,6 @@ h4{
 }
 
 .search-button:hover{
-    background-color:blueviolet ;
+    background-color:rgb(136, 67, 255) ;
 }
 
