@@ -98,3 +98,81 @@ a:hover {
     flex-grow: 1;
     flex-shrink: 1;
 }
+
+
+
+#center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    margin:auto;
+    overflow: scroll;
+}
+#main{
+    width: 630px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: scroll;
+}
+
+.box-top{
+    width: 100%;
+    height: 9%;
+}
+
+.box{
+    width:470px;
+    height: 760px;
+    background-color: rgb(0, 0, 0);
+    flex-shrink: 0;
+    margin: 4px;
+    flex-shrink: 0;
+}
+
+
+.box-center{
+    width: 100%;
+    height:75% ;
+    border: 1px solid grey;
+    border-radius: 6px;
+    background-image: url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-bottom{
+    width: 100%;
+    height: 26%;
+}
+
+.box-top{
+display: flex;
+justify-content: start;
+align-items: center;
+padding: 1px;
+}
+
+.box-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.small-circle{
+    width: 10%;
+    height: 70%;
+    border-radius: 50px;
+    border: 1px solid blueviolet;
+    margin-right: 15px;
+    
+}
+
