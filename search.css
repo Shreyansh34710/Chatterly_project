@@ -99,193 +99,119 @@ a:hover {
     flex-shrink: 1;
 }
 
-
 #center{
-    width: 52%;
-    height: 100%;
-    border-right: 1px solid rgb(64, 64, 64) ;
-}
-
-
-
-.search {
-  display: flex;
-  align-items: center;
-  border: 2px solid #bfb1b187;
-  border-radius: 7px;
-  padding: 5px;
-  width: 97%;
-  margin: 8% auto;
-
-}
-
-.input {
-  flex-grow: 1;
-  border: none;
-  padding: 8px;
-  font-size: 1rem;
-  box-sizing: border-box;
-  color: rgb(255, 255, 255);
-  margin-right: 5px;
-  background-color: rgb(30, 30, 30);
-}
-
-.button {
-  background-color: rgb(103, 52, 174);
-  color: rgb(0, 0, 0);
-  border: none;
-  padding: 8px 12px;
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 1.1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-button:hover {
-  background-color:blueviolet;
-  color: black;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#container {
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    height: 100vh;
-    width: 100vw;
-}
-
-#main-content-left {
-    background-color: rgb(0, 0, 0);
-    width: 18%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: stretch;
-    border-right: 0.5px solid rgb(64, 64, 64);
-
+    align-items: center;
+    width: 55%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    margin:auto;
 }
 
-#main-content-left-top {
-    height: 10%;
-    width: 100%;
+#right{
+    background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10%;
-    font-size: 2rem;
+    justify-content: space-between;
+    align-items: start;
+    padding: 30px;
 }
 
+textarea{
+    background-color: black;
+    width:300px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 9px;
+    color: aliceblue;
+}
 
-#main-content-left-center {
-    height: 65%;
-    width: 100%;
+.right-top{
     display: flex;
     flex-direction: column;
-    text-align: start;
-    align-items: center;
-    justify-content: start;
-    text-align: start;
-    padding: 10% 3% 0% 0%;
-    font-size: 1.3rem;
-}
-
-#main-content-left-center .bars {
-    height: 9%;
-    width: 90%;
-    text-align: start;
-    display: flex;
     justify-content: start;
     align-items: center;
-    padding-left: 35%;
-    margin: 1% 2% 1% 5%;
+    padding-top: 30px;
 }
 
-#main-content-left-center .bars:hover {
-    box-shadow: inset 2px 2px 40px rgb(29, 37, 40);
-    border: 1px solid rgb(29, 37, 40);
-    border-radius: 12px;
-    text-shadow: 2px 2px 10px rgba(255, 254, 254, 0.5);
+.right-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid blueviolet;
+    
 }
 
-#main-content-left-bottom {
-    height: 25%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    padding: 15% 2% 15% 0%;
-    font-size: 1.4rem;
-}
+h4{
+    display: inline;
 
-#main-content-left-bottom .bars {
-    width: 90%;
-    height: 35%;
-    display: flex;
-    align-items: center;
+}
+.right-top-box{
+    display:flex ;
     justify-content: start;
-    text-align: start;
-    margin: 1% 1% 1% 3%;
-    padding: 0% 0% 0% 35%;
+    align-items: center;
+    margin: 10px;
 }
 
-#main-content-left-bottom .bars:hover {
-    box-shadow: inset 2px 2px 40px rgb(29, 37, 40);
-    border: 1px solid rgb(29, 37, 40);
-    border-radius: 12px;
-    text-shadow: 2px 2px 10px rgba(255, 254, 254, 0.5);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.search-container {
+  display: flex; 
+  align-items: center; 
+  width: 90%;
+  border: 1px solid #858585;
+  border-radius: 5px;
+  padding: 5px;
 }
+
+.search-input {
+  flex-grow: 1;
+  width: 80%;
+  border: none;
+  padding: 8px 10px;
+  font-size: 16px;
+}
+
+.search-input::placeholder {
+  color: #aaa;
+}
+
+.search-button {
+  background-color: rgb(103, 52, 174);
+  color: white;
+  border: none;
+  width: 12%;
+  height: 90%;
+  border-radius: 3px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+  color: black;
+}
+
+.search-button:hover{
+    background-color:blueviolet ;
+}
+
