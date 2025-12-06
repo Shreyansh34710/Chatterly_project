@@ -23,10 +23,10 @@
                     <br>
                     
                     <br>
-                    <input type="text" name="Name" id="username" placeholder="  Username">
-                    <p id="emailError" style="color: red;"></p>
+                    <input type="text" name="Name" class="username" placeholder="Username" id="search-input">
+                    <!-- <p id="emailError" style="color: red;"></p> -->
                     <br>
-                    <input type="password" name="password" placeholder="  Password">
+                    <input type="password" name="password" placeholder="  Password" id="search-input">
                     <br>
                     <input type="submit" value="Login">
                     
@@ -36,8 +36,8 @@
 
     <p id="emailError" style="color: red;"></p>
 
-    <script>
-        const emailInput =  document.getElementById("username");
+    <!-- <script>
+        const emailInput =  document.querySelector(".username");
 
         const emailError = document.getElementById("emailError");
 
@@ -48,7 +48,7 @@
                 emailError.textContent = "Invalid Email";
             }
         });
-        </script>
+        </script> -->
     </div>
 </body>
 
