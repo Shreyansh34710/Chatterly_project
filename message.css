@@ -264,6 +264,13 @@ img{
     /* align-items: center; */
 }
 
+@media (max-width:730px) {
+    #center{
+        display: none;
+    }
+    
+}
+
 span{
     display: none;
 }
