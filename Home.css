@@ -30,6 +30,7 @@ body{
     align-items: stretch;
     border-right: 0.5px solid rgb(64, 64, 64);
     flex-shrink: 0;
+    z-index: 1;
 }
 
 #left-top {
@@ -67,7 +68,7 @@ a {
     display: flex;
     justify-content: start;
     align-items: center;
-    padding-left: 30%;
+    padding-left: 23%;
     border-radius: 10px;
     margin: 1% 2% 1% 2%;
     flex-shrink: 0;
@@ -108,6 +109,7 @@ a:hover {
     height: 100%;
     background-color: rgb(0, 0, 0);
     margin:auto;
+    z-index: 1;
 }
 #main{
     width: 630px;
@@ -131,6 +133,7 @@ a:hover {
     width: 383px;
     height: 100%;
     background-color: rgb(0, 0, 0);
+    z-index: 0;
 }
 
 .box-top{
@@ -378,3 +381,17 @@ h4{
     align-items: center;
     margin: 10px;
 }
+
+
+img{
+    width: 25px;
+    height: 25px;
+    margin-right: 13px;
+}
+
+.bars{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
