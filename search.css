@@ -67,7 +67,7 @@ a {
     display: flex;
     justify-content: start;
     align-items: center;
-    padding-left: 30%;
+    padding-left: 23%;
     border-radius: 10px;
     margin: 1% 2% 1% 2%;
     flex-shrink: 0;
@@ -156,6 +156,17 @@ h4{
     justify-content: start;
     align-items: center;
     margin: 10px;
+}
+
+
+img{
+    width: 25px;
+    height: 25px;
+    margin-right: 13px;
+}
+
+.bars{
+    display: flex;
 }
 
 
