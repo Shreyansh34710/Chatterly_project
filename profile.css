@@ -294,6 +294,12 @@ img{
     display: none;
 }
 
+#right{
+    width:20px;
+    height: 100%;
+    margin-left:110px;
+}
+
 
 @media (max-width:1040px){
     #left {
