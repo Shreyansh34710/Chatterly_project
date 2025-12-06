@@ -106,13 +106,14 @@ a:hover {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    width: 700px;
     height: 100%;
     background-color: rgb(0, 0, 0);
     margin:auto;
     overflow: scroll;
+    padding-top: 20px;
 }
-#main{
+/* #main{
     width: 630px;
     height: 100%;
     display: flex;
@@ -120,61 +121,54 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     overflow: scroll;
-}
-
-.box-top{
-    width: 100%;
-    height: 9%;
-}
+    
+} */
 
 .box{
-    width:470px;
-    height: 760px;
-    background-color: rgb(0, 0, 0);
-    flex-shrink: 0;
-    margin: 4px;
-    flex-shrink: 0;
-}
-
-
-.box-center{
-    width: 100%;
-    height:75% ;
-    border: 1px solid grey;
-    border-radius: 6px;
-    background-image: url();
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.box-bottom{
-    width: 100%;
-    height: 26%;
-}
-
-.box-top{
-display: flex;
-justify-content: start;
-align-items: center;
-padding: 1px;
-}
-
-.box-bottom{
+    width: 500px;
+    height: 815px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: start;
-}
-
-.small-circle{
-    width: 10%;
-    height: 70%;
-    border-radius: 50px;
-    border: 2px solid rgb(106, 0, 255);
-    margin-right: 15px;
+    flex-shrink: 0;
+    margin: 15px auto;
     
 }
+
+.box-left{
+    width: 90%;
+    height: 100%;
+    border: 1px solid grey;
+    
+}
+
+.box-right{
+    width: 10%;
+    height: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.box-right-top{
+    width: 100%;
+    height: 60%;
+}
+
+.box-right-bottom{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2:hover{
+    box-shadow: inset 2px 2px 50px grey;
+    border-radius: 500px;
+}
+
 
 
 img{
@@ -219,4 +213,26 @@ span{
 #left-top img{
     display: inline-block;
 }
+}
+
+
+@media(max-width:940px){
+    #center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    margin:auto;
+    overflow: scroll;
+    padding-top: 20px;
+}
+}
+
+@media(max-width:600px){
+    #left{
+        display: none;
+    }
 }
