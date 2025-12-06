@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     text-decoration: none;
@@ -6,16 +6,17 @@
     color: aliceblue;
     box-sizing: border-box;
 }
-a{
-    color:rgb(103, 52, 174);
+
+a {
+    color: rgb(103, 52, 174);
 }
 
 
-body{
+body {
     background-color: black;
 }
 
-#container{
+#container {
     background-color: rgb(0, 0, 0);
     height: 100vh;
     width: 100vw;
@@ -26,9 +27,9 @@ body{
     padding: 0% 0% 0% 0%;
 }
 
-#main-content{
-    height: 70%;
-    width: 70%;
+#main-content {
+    height: 600px;
+    width: 950px;
     box-sizing: border-box;
     display: flex;
     padding: 1%;
@@ -37,29 +38,30 @@ body{
     /* border: 1px solid grey; */
 }
 
-#main-content-left{
-    height: 100%;
-    width:47%;
+#main-content-left {
+    height: 580px;
+    width: 440px;
     border-radius: 10px;
+    flex-shrink: 0;
 }
 
-img{
+img {
     height: 100%;
     width: 100%;
     border-radius: 10px;
 }
 
-#main-content-right{
+#main-content-right {
     height: 100%;
-  width:53%;
+    width: 53%;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-form{
-    height:95% ;
+form {
+    height: 95%;
     width: 90%;
     text-align: center;
     display: flex;
@@ -69,6 +71,7 @@ form{
     padding: 3% 13% 3% 17%;
     box-sizing: border-box;
 }
+
 #name {
     width: 100%;
     height: 10%;
@@ -83,21 +86,38 @@ input[type="text"] {
     height: 100%;
     width: 48%;
     border-radius: 5px;
-    opacity: 0.2;
+    /* color: black; */
+    /* opacity: 0.2; */
+    background-color: rgb(102, 102, 102);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    border: 2px solid black;
+}
+
+.search-input::placeholder{
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
 }
 
 input[type="email"] {
     height: 10%;
     width: 100%;
     border-radius: 5px;
-    opacity: 0.2;
+    background-color: rgb(102, 102, 102);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
 }
 
 input[type="password"] {
     height: 10%;
     width: 100%;
     border-radius: 5px;
-    opacity: 0.2;
+    background-color: rgb(102, 102, 102);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
 }
 
 /* #checkbox label{
@@ -106,7 +126,7 @@ input[type="password"] {
     font-size: 1rem;
 } */
 
-#checkbox{
+#checkbox {
     margin-bottom: 6%;
 }
 
@@ -117,14 +137,14 @@ input[type="submit"] {
     background-color: rgb(103, 52, 174);
     color: rgb(255, 255, 255);
     font-weight: 500;
-    margin-top:5% ;
+    margin-top: 5%;
 }
 
-input[type="submit"]:hover{
+input[type="submit"]:hover {
     background-color: blueviolet;
 }
 
-#button{
+#button {
     width: 100%;
     height: 10%;
     box-sizing: border-box;
@@ -134,44 +154,89 @@ input[type="submit"]:hover{
     color: aliceblue
 }
 
-button{
+button {
     height: 100%;
     width: 100%;
-    border-radius:5px ;
+    border-radius: 5px;
     /* opacity: 0.5; */
-    background-color:rgb(103, 52, 174);
+    background-color: rgb(103, 52, 174);
     color: rgb(255, 255, 255);
     margin: 3px;
 
 }
 
-button:hover{
-    background-color:blueviolet;
+button:hover {
+    background-color: blueviolet;
 }
 
-h1{
+h1 {
     font-weight: 700;
     font-size: 2rem;
     margin-bottom: 7%;
 }
 
-#login{
+#login {
     font-size: 1rem;
     margin-bottom: 2%;
 }
 
-#hr{
+#hr {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
 }
 
-hr{
+hr {
     width: 30%;
     height: 1px;
 }
 
-a:hover{
+a:hover {
     color: blueviolet;
+}
+
+@media(max-width:955px) {
+    #main-content-left {
+        display: none;
+    }
+
+    #main-content-right {
+        width: 488px;
+        z-index: 1;
+        margin: auto;
+    }
+}
+
+@media(max-height:600px) {
+
+    #main-content {
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        padding: 1%;
+        background-color: rgba(31, 30, 30, 0.724);
+        border-radius: 10px;
+        /* border: 1px solid grey; */
+        flex-shrink: 0.5;
+    
+    }
+
+    #main-content-left {
+        height: 100%;
+        width: 440px;
+        border-radius: 10px;
+        flex-shrink: 0;
+    }
+
+
+    #main-content-right {
+        height: 100%;
+        width: 53%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

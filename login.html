@@ -23,7 +23,8 @@
                     <br>
                     
                     <br>
-                    <input type="text" name="Name" id="" placeholder="  Username">
+                    <input type="text" name="Name" id="username" placeholder="  Username">
+                    <p id="emailError" style="color: red;"></p>
                     <br>
                     <input type="password" name="password" placeholder="  Password">
                     <br>
@@ -33,6 +34,21 @@
             </div>
         </div>
 
+    <p id="emailError" style="color: red;"></p>
+
+    <script>
+        const emailInput =  document.getElementById("username");
+
+        const emailError = document.getElementById("emailError");
+
+        emailInput.addEventListener("input", function(){
+            if (emailInput.value.includes("@")){
+                emailError.textContent = "";
+            }else{
+                emailError.textContent = "Invalid Email";
+            }
+        });
+        </script>
     </div>
 </body>
 

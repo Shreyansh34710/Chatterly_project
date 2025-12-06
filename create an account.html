@@ -19,16 +19,20 @@
                 <form action="">
                     <h1>Create an account</h1>
                     <span id="login">Already have an account? <a href="http://127.0.0.1:5501/login.html">Log in</a></span>
+                    <p id="emailError" style="color: red;"></p>
                     <br>
                     <br>
                     <span id="name">
-                        <input type="text" name="first-name" id="" placeholder="  First Name">
-                        <input type="text" name="sur-name" id="" placeholder="  Last Name">
+                        <input type="text" name="first-name" id="" placeholder="First Name" class="search-input">
+
+                        <input type="text" name="sur-name" id="" placeholder="Last Name" class="search-input">
                     </span>
                     <br>
-                    <input type="email" name="email" id="" placeholder="  Email Address">
+                    <input type="email" class="search-input" name="email" id="email" placeholder="Email Address" >
+                    
+
                     <br>
-                    <input type="password" name="password" placeholder="  Password">
+                    <input type="password" class="search-input" name="password" placeholder="Password" >
                     <br>
                     <span id="checkbox">
                         <input type="checkbox" id="agree" name="agree">
@@ -49,6 +53,20 @@
                 </form>
             </div>
         </div>
+
+        <script>
+            const emailInput =  document.getElementById("email");
+
+        const emailError = document.getElementById("emailError");
+
+        emailInput.addEventListener("input", function(){
+            if (emailInput.value.includes("@")){
+                emailError.textContent = "";
+            }else{
+                emailError.textContent = "Invalid Email";
+            }
+        });
+        </script>
 
     </div>
 </body>
